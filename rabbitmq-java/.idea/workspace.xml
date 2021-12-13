@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87d37145-9817-4635-bf53-e45b5cdf1aa7" name="Default Changelist" comment="" />
+    <list default="true" id="87d37145-9817-4635-bf53-e45b5cdf1aa7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/rabbitmq/simple/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/rabbitmq/simple/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cx/rabbitmq/simple/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cx/rabbitmq/simple/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cx/rabbitmq/simple/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cx/rabbitmq/simple/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cx/rabbitmq/simple/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cx/rabbitmq/simple/Producer.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +57,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cx.rabbitmq.simple.Consumer" />
+      <module name="rabbitmq-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cx.rabbitmq.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cx.rabbitmq.simple.Producer" />
       <module name="rabbitmq-java" />
@@ -67,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Producer" />
       </list>
     </recent_temporary>
@@ -99,53 +119,84 @@
       <workItem from="1636896782810" duration="2196000" />
       <workItem from="1636901451341" duration="470000" />
       <workItem from="1636938812063" duration="595000" />
-      <workItem from="1638256801639" duration="500000" />
+      <workItem from="1638256801639" duration="771000" />
+      <workItem from="1638257581876" duration="1296000" />
+      <workItem from="1638263147622" duration="29000" />
+      <workItem from="1638267561077" duration="2000" />
+      <workItem from="1638334319161" duration="4000" />
+      <workItem from="1638860347590" duration="3924000" />
+      <workItem from="1639383075838" duration="1153000" />
+      <workItem from="1639387370817" duration="182000" />
     </task>
+    <task id="LOCAL-00001" summary="rabbitmq-java">
+      <created>1638257539811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638257539811</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rabbitmq-java" />
+    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq-java" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="249" y="14" key="CommitChangelistDialog2" timestamp="1638257539023">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1638257539023" />
     <state x="549" y="176" key="FileChooserDialogImpl" timestamp="1636896764258">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1636896764258" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1638257055656">
+    <state width="1493" height="593" key="GridCell.Tab.0.bottom" timestamp="1639384238510">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1638257055656">
+    <state width="1493" height="593" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1639384238510" />
+    <state width="1493" height="593" key="GridCell.Tab.0.center" timestamp="1639384238510">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1638257055656">
+    <state width="1493" height="593" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1639384238510" />
+    <state width="1493" height="593" key="GridCell.Tab.0.left" timestamp="1639384238509">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1638257055656">
+    <state width="1493" height="593" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1639384238509" />
+    <state width="1493" height="593" key="GridCell.Tab.0.right" timestamp="1639384238510">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1638257055656">
+    <state width="1493" height="593" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1639384238510" />
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom" timestamp="1639384238507">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1638257055656">
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1639384238507" />
+    <state width="1493" height="254" key="GridCell.Tab.1.center" timestamp="1639384238507">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1638257055656">
+    <state width="1493" height="254" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1639384238507" />
+    <state width="1493" height="254" key="GridCell.Tab.1.left" timestamp="1639384238507">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1638257055656">
+    <state width="1493" height="254" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1639384238507" />
+    <state width="1493" height="254" key="GridCell.Tab.1.right" timestamp="1639384238507">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1638257055656" />
+    <state width="1493" height="254" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1639384238507" />
     <state x="272" y="63" key="SettingsEditor" timestamp="1636896771285">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="272" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1636896771285" />
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2" timestamp="1638257549838">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="154" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1638257549838" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1638861052388">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1638861052388" />
   </component>
 </project>

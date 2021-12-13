@@ -4,13 +4,11 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
-
 /**
  * @Author zgp
  * @Since 2021 -11 -14 21 :44
- * @Description 生产者
+ * @Description 简单模式:生产者
+ * 生产者-队列-消费者
  */
 public class Producer {
 
@@ -34,7 +32,7 @@ public class Producer {
         Channel channel = null;
         try {
             // 2: 创建连接Connection Rabbitmq为什么是基于channel去处理而不是链接? 长连接----信道channel
-            connection = connectionFactory.newConnection("生成者");
+            connection = connectionFactory.newConnection("生成者1");
             // 3: 通过连接获取通道Channel
             channel = connection.createChannel();
             // 4: 通过通创建交换机，声明队列，绑定关系，路由key，发送消息，和接收消息
